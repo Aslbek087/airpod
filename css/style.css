@@ -152,7 +152,7 @@ body {
 }
 
 .phones {
-    padding-top: 79px;
+    padding: 79px 0;
 }
 
 .phones__card {
@@ -192,4 +192,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 15px;
+}
+
+.footer__list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.footer__link {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer__payments {
+    display: flex;
+    align-items: center;
+    column-gap: 29px;
+}
+
+.footer__payments i {
+    font-size: 70px;
+    color: white;
 }
